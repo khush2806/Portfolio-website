@@ -1,1 +1,83 @@
-            
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img  src="LOGO.png" class="logo" width="70px">
+                <ul>
+                    <li><a href="#">Home</a>
+                        <li><a href="#">About</a>
+                                <li><a href="#">Portfolio</a>
+                                    <li><a href="#">Contact</a>
+    
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>
+                    UI/UX Designer
+                </p>
+                <h1>
+                    Hi,I am <span>Khush Agarwal</span> <br>from Guwahati,Assam.
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------about---------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo5.jpeg" class="myimg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I am a UI/UX designer and this website displays my portfolio which I have designed using HTML,CSS and JS.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class= "tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                            <li><span>WebDevelopment</span><br>Developing Websites</li>
+                            <li><span>Languages</span><br>C,C++,HTML,CSS,JS,Python</li>
+                            <li><span>Soft Skills</span><br>Leadership, Event Management, Writing,<br> Public Speaking, Time Management</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May-July 2024</span><br><name>Iot-cum-web development Intern at Ignotech Marketspaces</name></li>
+                        </ul>
+                        <ul style="padding-left: 20px;"><exp>  
+                            <li><strong>IoT Hardware Projects:</strong> Working on electronic hardware-based project models which consist of various sensors, transducers, AVR boards, etc. Developing innovative solutions and prototypes using electronic components and microcontrollers.</li>
+                            <li><strong>Client-based Projects:</strong> Working on client-based products and their websites sas required, ensuring that the solutions meet client expectations and project specifications.</li>
+                            <li><strong>Documentation:</strong> Documenting the process of creating various IoT projects and a step by step Python learning curriculum, ensuring that the documentation is clear, comprehensive, and can be utilized as part of the company course curriculum.</li>
+                        </exp></ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Happy Child High School, Guwahati (2018)</span><br>Matriculation : 89.67%</li>
+                            <li><span>Shrimanta Sankar Academy, Guwahati (2020)</span><br>Higher Secondary : 80.2%</li>
+                            <li><span>National Institute Of Technology Silchar (2021-25)</span><br>Bachelor of Technology - <br> Electronics and Instrumentation Engineering; CGPA: 8.21</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------------------about---------------------------------------->
+<!----------------------------------services------------------------------------>
+
+<script src="index.js"></script>   
+
+</body>
+</html>
